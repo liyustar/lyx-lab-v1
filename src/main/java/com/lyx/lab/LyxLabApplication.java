@@ -1,4 +1,4 @@
-package com.lyx.lab.lyxlab;
+package com.lyx.lab;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

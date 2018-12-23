@@ -1,4 +1,4 @@
-package com.lyx.lab.lyxlab;
+package com.lyx.lab;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
