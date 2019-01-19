@@ -19,11 +19,8 @@ public class UserController {
     @GetMapping("/{id}")
     public User getUserById(@PathVariable(value = "id") Long userId) {
         log.info("id<{}>", userId);
-        User user = new User();
-        user.setName("ab");
-        return user;
-//        return userRepository.findById(userId)
-//                .orElseThrow(() -> new RuntimeException("User:" + "id=" + userId));
+        return userRepository.findById(userId)
+                .orElseThrow(() -> new RuntimeException("User:" + "id=" + userId));
     }
 
     @PostMapping()
