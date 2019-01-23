@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config enabled="true" max-message-size="5000">
+    <servers>
+        <server ip="10.16.18.191" port="2280" http-port="8080" enabled="true"/>
+    </servers>
+</config>
