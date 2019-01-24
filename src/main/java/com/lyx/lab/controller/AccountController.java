@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 
 @RestController
-@RequestMapping("/accounts")
+@RequestMapping("/api/accounts")
 @Log4j2
 public class AccountController {
 
