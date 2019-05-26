@@ -33,6 +33,8 @@ public class UserControllerTest {
 
     @Test
     public void getUserById() throws Exception {
+        User user = new User();
+        user.getName();
         MvcResult result = this.mockMvc.perform(get("/users/1"))
                 .andDo(print())
                 .andExpect(status().isOk())
