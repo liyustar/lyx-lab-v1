@@ -28,3 +28,7 @@ spring:
 #spring.jpa.show-sql=true
 #spring.jpa.database-platform=org.hibernate.dialect.MySQL5Dialect
 
+# XML文件位置 指定DAO与SQL语句关联
+mybatis:
+  typeAliasesPackage: com.lyx.omslab.model
+  mapperLocations: classpath:mybatis/mapper/*.xml
